@@ -9,7 +9,6 @@ const App = () => {
 
   // usestates
   const [items, setItems] = useState(JSON.parse(localStorage.getItem("task")));
-
   const [newItem, setNewItem] = useState("");
   const [search, setSearch] = useState("");
 

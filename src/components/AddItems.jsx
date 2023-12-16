@@ -10,7 +10,7 @@ export const AddItems = ({ newItem, setNewItem, handleSubmit }) => {
         value={newItem}
         onChange={(e) => setNewItem(e.target.value)}
       />
-      <button className="bg-blue-500 text-white rounded px-4 text-xl py-2" type="submit">Add</button>
+      <button className="bg-purple-500 text-white rounded px-4 text-xl py-2" type="submit">Add</button>
     </form>
   );
 };

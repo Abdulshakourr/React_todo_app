@@ -13,6 +13,7 @@ const App = () => {
   const [newItem, setNewItem] = useState("");
   const [search, setSearch] = useState("");
   const [fetcheror, setFecheror] = useState(null);
+  const [isloading , setIsloading] = useState(true)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,6 +26,8 @@ const App = () => {
         setFecheror(null);
       } catch (err) {
         setFecheror(err.message);
+      } finally{
+        setIsloading(false)
       }
     };
 
@@ -79,11 +82,12 @@ const App = () => {
         <Search search={search} setSearch={setSearch} />
 
         <main>
+          {isloading && <div className="border-gray-300 h-10 w-10 mx-auto animate-spin rounded-full border-8 border-t-blue-600" ></div>}
           {fetcheror && (
             <h3 className="text-center text-xl font-bold text-red-500">{`Error: ${fetcheror}`}</h3>
           )}
 
-          {!fetcheror && (
+          {!fetcheror && !isloading && (
             <Content
               items={items.filter((item) =>
                 item.item.toLowerCase().includes(search.toLowerCase())

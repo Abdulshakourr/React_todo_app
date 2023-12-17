@@ -8,7 +8,7 @@ export const ListItems = ({ items, handleCheck, handleDelete }) => {
               type="checkbox"
               checked={item.checked}
               onChange={() => handleCheck(item.id)}
-              className="w-6 h-6 rounded border-2 border-gray-300"
+              className="w-6 h-6  border-2 rounded-full border-gray-300"
             />
             <label
               onClick={() => handleCheck(item.id)}

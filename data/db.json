@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "item": "Buy groceries",
+      "checked": false
+    },
+    {
+      "id": 2,
+      "item": "Finish report",
+      "checked": false
+    },
+    {
+      "id": 3,
+      "item": "Call John",
+      "checked": false
+    },
+    {
+      "id": 4,
+      "item": "Go to the gym",
+      "checked": false
+    },
+    {
+      "id": 5,
+      "item": "Read a book",
+      "checked": false
+    },
+    {
+      "id": 6,
+      "item": "Prepare presentation",
+      "checked": false
+    },
+    {
+      "id": 7,
+      "item": "Pay bills",
+      "checked": false
+    },
+    {
+      "id": 8,
+      "item": "Attend meeting",
+      "checked": false
+    },
+    {
+      "id": 9,
+      "item": "Clean the house",
+      "checked": false
+    },
+    {
+      "id": 10,
+      "item": "Write blog post",
+      "checked": false
+    },
+    {
+      "id": 11,
+      "item": "Practice coding",
+      "checked": false
+    },
+    {
+      "id": 12,
+      "item": "Watch a movie",
+      "checked": false
+    },
+    {
+      "id": 13,
+      "item": "Take a walk",
+      "checked": false
+    },
+    {
+      "id": 14,
+      "item": "Plan vacation",
+      "checked": false
+    },
+    {
+      "id": 15,
+      "item": "Organize files",
+      "checked": false
+    }
+  ]
+}
